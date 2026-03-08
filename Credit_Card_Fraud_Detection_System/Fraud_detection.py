@@ -9,9 +9,7 @@ X = data.drop("Class", axis=1)
 y = data["Class"]
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
-)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 print("Training Logistic Regression...")
 lr_model = LogisticRegression(max_iter=2000, solver="liblinear", random_state=42)
 print("Training Random Forest...")
