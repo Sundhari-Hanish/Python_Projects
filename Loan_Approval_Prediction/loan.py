@@ -46,3 +46,45 @@ if result[0] == 1:
     print("Loan Approved")
 else:
     print("Loan Rejected")
+
+
+
+#OUTPUT
+#1
+#Model Training Completed
+
+#Enter Applicant Details
+#Gender (1=Male, 0=Female): 0
+#Married (1=Yes, 0=No): 1
+#Dependents (0,1,2,3): 1
+#Education (1=Graduate, 0=Not Graduate): 1
+#Self Employed (1=Yes, 0=No): 0
+#Applicant Income: 6000
+#Coapplicant Income: 3000
+#Loan Amount: 5000
+#Loan Amount Term: 1
+#Credit History (1=Good, 0=Bad): 1
+#Property Area (0=Rural,1=Semiurban,2=Urban): 1
+
+#Loan Approval Result:
+#Loan Approved
+
+
+#2
+#Model Training Completed
+
+#Enter Applicant Details
+#Gender (1=Male, 0=Female): 0
+#Married (1=Yes, 0=No): 1
+#Dependents (0,1,2,3): 1
+#Education (1=Graduate, 0=Not Graduate): 1
+#Self Employed (1=Yes, 0=No): 0
+#Applicant Income: 6000
+#Coapplicant Income: 2000
+#Loan Amount: 8000
+#Loan Amount Term: 1
+#Credit History (1=Good, 0=Bad): 0
+#Property Area (0=Rural,1=Semiurban,2=Urban): 1
+
+#Loan Approval Result:
+#Loan Rejected
